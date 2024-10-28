@@ -1,0 +1,21 @@
+.font-manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+#junior-program-1{
+    background-image: 
+        linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../Images/2.png');
+}
+
+#junior-program-2{
+    background-image: 
+        linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../Images/3.png');
+}
+
+#junior-program-3{
+    background-image: 
+        linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../Images/4.png');
+}

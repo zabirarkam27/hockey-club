@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -14,16 +14,272 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/78c61a34b3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+
     <style>
-        .font-manrope {
-            font-family: "Manrope", sans-serif;
-        }
+
     </style>
 
 </head>
 
 <body class="font-manrope">
-    
+    <header class="container mx-auto px-1 md:px-10 lg:px-20">
+        <!-- This is nav section -->
+        <nav class="my-5 md:my-8 lg:my-10">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base] font-semibold">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Content</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="hover:text-[#FF4240] duration-300 font-extrabold text-xl md:text-3xl ">Hockey<span
+                            class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base ">
+                        <li class="font-bold text-[#FF4240]"><a>Home</a></li>
+                        <li class="hover:text-[#FF4240] duration-300 easy-in-out"><a>About</a></li>
+                        <li class="hover:text-[#FF4240] duration-300 easy-in-out"><a>Pages</a></li>
+                        <li class="hover:text-[#FF4240] duration-300 easy-in-out"><a>Blog</a></li>
+                        <li class="hover:text-[#FF4240] duration-300 easy-in-out"><a>Content</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end space-x-2 md:space-x-5">
+                    <i class="fas fa-search"></i>
+                    <a class="btn btn-error text-xs md:text-base  text-white">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero section is here -->
+        <div class="relative px-3">
+
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute space-x-5 bottom-6 left-6 bg-slate-900/50justify-between">
+                        <a href="#slide4" class="btn btn-circle border-none bg-slate-900 text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle border-none bg-slate-900 text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute space-x-5 bottom-6 left-6  justify-between">
+                        <a href="#slide1" class="btn btn-circle border-none bg-slate-900 text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle border-none bg-slate-900 text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute space-x-5 bottom-6 left-6 bg-slate-900/50justify-between">
+                        <a href="#slide2" class="btn btn-circle border-none bg-slate-900 text-white">❮</a>
+                        <a href="#slide4" class="btn btn-circle border-none bg-slate-900 text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/4.png" class="w-full" />
+                    <div class="absolute space-x-5 bottom-6 left-6 bg-slate-900/50justify-between">
+                        <a href="#slide3" class="btn btn-circle border-none bg-slate-900 text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle border-none bg-slate-900 text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="lg:absolute bottom-12 right-12  lg:w-[500px] bg-slate-900/80 lg:py-8 md:py-6 py-4 px-6 rounded-xl text-white space-y-2">
+                <h6 class="md:text-2xl text-xl font-semibold">Meet all the heroes from the field</h6>
+                <p class="text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.
+                    Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto px-1 md:px-10 lg:px-20">
+        <!-- Professional Hockey Club section -->
+        <section class="my-20">
+            <!-- header section -->
+            <div
+                class="border-dashed border-y-2 text-center py-4 md:py-8 space-y-6 flex flex-col items-center justify-center">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">Professional Hockey Club</h1>
+                <p class="opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- progress section -->
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <!-- progress-1 -->
+                <div class="flex flex-col items-center ">
+                    <div class="relative ">
+                        <div class="radial-progress text-slate-400 font-extrabold text-xl" style="--value:87;"
+                            role="progressbar">87%</div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-[#FF4240]" style="--value:87;"
+                            role="progressbar">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h6 class="text-xl font-semibold">Preyer Facility</h6>
+                        <p class="opacity-60">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <!-- progress-2 -->
+                <div class="flex flex-col items-center ">
+                    <div class="relative ">
+                        <div class="radial-progress text-slate-400 font-extrabold text-xl" style="--value:95;"
+                            role="progressbar">95%</div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-[#49D293]" style="--value:95;"
+                            role="progressbar">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h6 class="text-xl font-semibold">Experienced Coach</h6>
+                        <p class="opacity-60">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <!-- progress-3 -->
+                <div class="flex flex-col items-center ">
+                    <div class="relative ">
+                        <div class="radial-progress text-slate-400 font-extrabold text-xl" style="--value:87;"
+                            role="progressbar">90%</div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-[#FFB546]" style="--value:90;"
+                            role="progressbar">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h6 class="text-xl font-semibold">Senior Player</h6>
+                        <p class="opacity-60">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+                <!-- progress-4 -->
+                <div class="flex flex-col items-center ">
+                    <div class="relative ">
+                        <div class="radial-progress text-slate-400 font-extrabold text-xl" style="--value:87;"
+                            role="progressbar">80%</div>
+                        <div class="rotate-90 absolute top-0 left-0 radial-progress text-[#4C8DF1]" style="--value:80;"
+                            role="progressbar">
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h6 class="text-xl font-semibold">Training Ground</h6>
+                        <p class="opacity-60">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Sections -->
+        <section class="my-20">
+            <!-- header section -->
+            <div
+                class="border-dashed border-y-2 text-center py-4 md:py-8 space-y-6 flex flex-col items-center justify-center">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">Professional Hockey Club</h1>
+                <p class="opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- programs -->
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- program-1 -->
+                <div id="junior-program-1" class="h-80 w-full flex flex-col justify-end pb-9 pl-8 rounded-xl">
+                    <div class="space-y-4 text-white">
+                        <h5 class="text-2xl font-extrabold">Junior Program</h5>
+                        <p class="w-3/4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ea corporis
+                            temporibus nesciunt sapiente aliquam.</p>
+                        <a class="btn btn-error text-xs md:text-base  text-white">Register Now!</a>
+                    </div>
+                </div>
+                <!-- program-2 -->
+                <div id="junior-program-2" class="rounded-xl h-80 w-full flex flex-col justify-end pb-9 pl-8">
+                    <div class="space-y-4 text-white">
+                        <h5 class="text-2xl font-extrabold">Teenager Program</h5>
+                        <p class="w-3/4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ea corporis
+                            temporibus nesciunt sapiente aliquam.</p>
+                        <a class="btn btn-error text-xs md:text-base  text-white">Register Now!</a>
+                    </div>
+                </div>
+                <!-- program-3 -->
+                <div id="junior-program-3"
+                    class="rounded-xl h-80 w-full flex flex-col justify-end pb-9 pl-8 lg:col-span-2">
+                    <div class="space-y-4 text-white">
+                        <h5 class="text-2xl font-extrabold">Professional Program</h5>
+                        <p class="w-1/2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ea corporis
+                            temporibus nesciunt sapiente aliquam.</p>
+                        <a class="btn btn-error text-xs md:text-base  text-white">Register Now!</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- New Product Section -->
+        <section class="my-20">
+            <!-- header section -->
+            <div
+                class="border-dashed border-y-2 text-center py-4 md:py-8 space-y-6 flex flex-col items-center justify-center">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-extrabold">Our New Products</h1>
+                <p class="opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 mt-12 justify-center items-center">
+                <!-- Card-1 -->
+                <div class="card card-side border">
+                    <!-- Card image -->
+                    <figure>
+                        <img class="p-2" src="Images/5.png" alt="Jacket" />
+                    </figure>
+                    <!-- Card-body -->
+                    <div class="card-body space-y-1">
+                        <!-- icons -->
+                        <div class="text-[#131318]/50 flex items-center space-x-6">
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <h3>5.0</h3>
+                            </div>
+
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <h3>20</h3>
+                            </div>
+
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <h3>200</h3>
+                            </div>
+                        </div>
+                        <!-- description -->
+                        
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p class="text-[#131318]/50">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                        
+                        <!-- footer -->
+                        <div class="flex items-center space-x-6 text-[#131318]/50">
+                            <h1>Price - $22.00</h1>
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer class="container mx-auto px-1 md:px-10 lg:px-20">
+
+    </footer>
 </body>
 
 </html>
