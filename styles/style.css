@@ -19,3 +19,11 @@
         linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
         url('../Images/4.png');
 }
+
+.icon-hover-shrink {
+    transition: transform 0.2s ease;
+}
+
+.icon-hover-shrink:hover {
+    transform: scale(0.9);
+}
